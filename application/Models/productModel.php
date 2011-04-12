@@ -22,6 +22,10 @@ class productModel extends joz_activeRecordModel{
 							'class' => 'manufacturerModel',
 							'key' => 'manufacturerId',
 							'type' => self::BELONGS_TO),
+				'tax' => array(
+							'class' => 'taxModel',
+							'key' => 'taxId',
+							'type' => self::HAS_ONE)
 							);
 	
 	public function getLinkName()

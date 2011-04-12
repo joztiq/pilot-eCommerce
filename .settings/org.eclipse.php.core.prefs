@@ -1,5 +1,5 @@
-#Mon Apr 04 08:29:37 CEST 2011
+#Tue Apr 12 13:49:34 CEST 2011
 eclipse.preferences.version=1
-include_path=0;/pilot eCommerce
+include_path=0;/pilot eCommerce\u00050;/pilot eCommerce/application\u00050;/pilot eCommerce/application/Controllers\u00050;/pilot eCommerce/components/log4php\u00050;/pilot eCommerce/application/Configs\u00050;/pilot eCommerce/components/phpseclib\u00050;/pilot eCommerce/components\u00050;/pilot eCommerce/application/Models
 phpVersion=php5.3
 use_asp_tags_as_php=false
