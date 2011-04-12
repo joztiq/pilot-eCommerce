@@ -10,6 +10,20 @@ class productModel extends joz_activeRecordModel{
 	public $primaryKey = 'id';
 	public $tableName = 'pec_products';
 	
+	/*
+	* Markup for relations. You might want to add '@property' tags in the class phpDoc.
+	*/
+	protected $relations = array(
+				'category' => array(
+							'class' => 'categoryModel',
+							'key' => 'categoryId',
+							'type' => self::BELONGS_TO),
+				'manufacturer' => array(
+							'class' => 'manufacturerModel',
+							'key' => 'manufacturerId',
+							'type' => self::BELONGS_TO),
+							);
+	
 	public function getLinkName()
 	{
 		return str_replace(" ", "_", $this->name);
@@ -24,12 +38,14 @@ class productModel extends joz_activeRecordModel{
 	}
 	
 	public $id;
+	public $categoryId;
+	public $manufacturerId;
 	public $name;
 	public $shortDescription;
 	public $longDescription;
 	public $SKU;
 	public $price;
-	public $vatId;
+	public $taxId;
 	public $manufacturerId;
 	public $weight;
 	public $status;
