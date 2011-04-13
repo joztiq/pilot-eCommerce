@@ -1,8 +1,8 @@
 <?php
 /**
 * Class representing ...
-* @author Daniel Maison <daniel.maison@auriga.se>
-* @author Markus Gerdau <markus.gerdau@auriga.se>
+* @author Daniel Maison
+* @author Markus Gerdau
 *
 */
 class productModel extends joz_activeRecordModel{
