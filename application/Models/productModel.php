@@ -1,9 +1,11 @@
 <?php
 /**
-* Class representing ...
-* @author Daniel Maison
-* @author Markus Gerdau
-*
+* Class representing a Product
+* @author Daniel Maison <daniel.maison@live.se>
+* @author Markus Gerdau <markus.gerdau@gmail.com>
+* @property categoryModel $category
+* @property manufacturerModel $manufacturer
+* @property taxModel $tax
 */
 class productModel extends joz_activeRecordModel{
 

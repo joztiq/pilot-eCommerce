@@ -1,4 +1,10 @@
 <?php
+/**
+* Class representing a Customer
+* @author Daniel Maison <daniel.maison@live.se>
+* @author Markus Gerdau <markus.gerdau@gmail.com>
+* @property customCustomerFieldModel $customFields
+*/
 class customerModel extends joz_activeRecordModel {
 	
 	public $tableName = 'pec_customers';

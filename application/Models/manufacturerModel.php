@@ -1,4 +1,10 @@
 <?php
+/**
+* Class representing a Manufacturer
+* @author Daniel Maison <daniel.maison@live.se>
+* @author Markus Gerdau <markus.gerdau@gmail.com>
+* @property productModel $products
+*/
 class manufacturerModel extends joz_activeRecordModel{
 	
 	public $primaryKey = 'id';

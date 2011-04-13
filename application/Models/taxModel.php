@@ -1,4 +1,10 @@
 <?php
+/**
+* Class representing a Tax rate
+* @author Daniel Maison <daniel.maison@live.se>
+* @author Markus Gerdau <markus.gerdau@gmail.com>
+* @property productModel $products
+*/
 class taxModel extends joz_activeRecordModel {
 	
 	public $primaryKey = 'id';

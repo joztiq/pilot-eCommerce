@@ -1,4 +1,10 @@
 <?php
+/**
+* Class representing a Product attribute value
+* @author Daniel Maison <daniel.maison@live.se>
+* @author Markus Gerdau <markus.gerdau@gmail.com>
+* @property productAttributeModel $attribute
+*/
 class productAttributeValuesModel extends joz_activeRecordModel {
 	
 	public $primaryKey = 'id';
