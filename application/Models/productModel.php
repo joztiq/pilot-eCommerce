@@ -52,7 +52,6 @@ class productModel extends joz_activeRecordModel{
 	public $SKU;
 	public $price;
 	public $taxId;
-	public $manufacturerId;
 	public $weight;
 	public $status;
 	public $quantity;
